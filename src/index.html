@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .bg-vector {
+            background-image: url('assets/vector.svg');
+            background-repeat: no-repeat;
+            background-position: center center ;
+            background-size: contain;
+            
+            position: relative;
+            bottom: 20px;
+            
+        }
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+        
+        body {
+            font-family: 'FM Sans', sans-serif;
+        }
+
+    </style>
+    <title>Coffee Shop</title>
+</head>
+<body class="object-contain" style="background-image: url(assets/bg-cafe.jpg);">
+
+    <div class="flex flex-wrap w-full items-center justify-center mt-20">
+        <div class="bg-[#1B1D1F] rounded-lg w-[350px]">
+            <div class="bg-vector px-4">
+            <h1 class="text-white text-2xl font-semibold text-center mt-10">Our Collection</h1>
+            <p class="text-[#6F757C] text-center text-sm mt-2">Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly.</p>
+        </div>
+        <div class="mx-auto flex justify-evenly items-center ">
+            <p class="bg-[#6F757C] rounded-md text-center p-2"><span class="text-white">All Products</span></p>
+            <span class="text-white">Available Now</span>
+        </div>
+            <div id="coffee-list" class=" mt-10 flex justify-center items-center flex-wrap">
+                <!-- SVG will be added dynamically here -->
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
